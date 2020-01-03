@@ -1,3 +1,14 @@
 .header-section {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    &_item {
+        padding: 2px 5px;
+    }
 }
